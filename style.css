@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-self: center;
+    text-align: center;
+    height: 700px;
+    width: 100%;
+ 
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+.main{
+    background-color: rgb(98, 194, 238);
+    padding: 20px;
+border-radius: 30px;
+max-width: fit-content;
+align-self: center;
+
+}
+
+.num-pad{
+    border-radius: 30px;
+    padding: 10px;
+    overflow: hidden;
+
+}
+button{
+    width: 100px;
+    height: 100px;
+  background-color: rgb(27, 25, 25);
+  color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding: 0;
+    cursor: pointer;
+}
+.input-val{
+width: 300px;
+height: 100px;
+font-size: 50px;
+}
+button:hover{
+    background-color: rgb(7, 123, 224);
+    color: black;
+}
+
